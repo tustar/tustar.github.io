@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT, Tustar" />
+  <meta name="keywords" content="Android,Memery," />
 
 
 
@@ -87,12 +87,40 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="TuStar' Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2015/index.html">
+<meta name="description" content="说明
+GC_FOR_MALLOC
+发生在堆被占满不能进行内存分配时，在分配新对象之前必须进行内存回收
+
+GC_CONCURRENT
+发生在（可能是部分的）垃圾可够回收时，通常有很多对象可以回收
+
+GC_EXTERNAL_ALLOC
+在Android3.0 (Honeycomb)以前，释放通过外部内存（externel memory, 通过JNI代码中malloc分配得到的内存）时产  生。Andr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android内存分析">
+<meta property="og:url" content="http://yoursite.com/2016/04/18/2016-04-18-android-memery/index.html">
 <meta property="og:site_name" content="TuStar' Blog">
+<meta property="og:description" content="说明
+GC_FOR_MALLOC
+发生在堆被占满不能进行内存分配时，在分配新对象之前必须进行内存回收
+
+GC_CONCURRENT
+发生在（可能是部分的）垃圾可够回收时，通常有很多对象可以回收
+
+GC_EXTERNAL_ALLOC
+在Android3.0 (Honeycomb)以前，释放通过外部内存（externel memory, 通过JNI代码中malloc分配得到的内存）时产  生。Andr">
+<meta property="og:updated_time" content="2017-04-01T09:37:19.369Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TuStar' Blog">
+<meta name="twitter:title" content="Android内存分析">
+<meta name="twitter:description" content="说明
+GC_FOR_MALLOC
+发生在堆被占满不能进行内存分配时，在分配新对象之前必须进行内存回收
+
+GC_CONCURRENT
+发生在（可能是部分的）垃圾可够回收时，通常有很多对象可以回收
+
+GC_EXTERNAL_ALLOC
+在Android3.0 (Honeycomb)以前，释放通过外部内存（externel memory, 通过JNI代码中malloc分配得到的内存）时产  生。Andr">
 
 
 
@@ -120,13 +148,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2015/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/04/18/2016-04-18-android-memery/"/>
 
 
 
 
 
-  <title> 归档 | TuStar' Blog </title>
+  <title> Android内存分析 | TuStar' Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -151,7 +179,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -235,140 +263,215 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 9 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/10/29/2015-10-29-lunar-calendar/" itemprop="url">
-              
-                <span itemprop="name">中国农历转公历</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-10-29T16:41:01+08:00"
-              content="2015-10-29" >
-          10-29
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/09/23/2015-09-23-ubuntu-terminal-dev/" itemprop="url">
-              
-                <span itemprop="name">Ubuntu高效开发终端打造</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-09-23T15:34:01+08:00"
-              content="2015-09-23" >
-          09-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/09/19/2015-09-19-ubuntu-software/" itemprop="url">
-              
-                <span itemprop="name">Ubuntu常用软件</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-09-19T16:41:01+08:00"
-              content="2015-09-19" >
-          09-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/04/18/2016-04-18-android-memery/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="tustar">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TuStar' Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Android内存分析
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-04-18T16:41:01+08:00">
+                2016-04-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2016/04/18/2016-04-18-android-memery/" class="leancloud_visitors" data-flag-title="Android内存分析">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ul>
+<li><p>GC_FOR_MALLOC</p>
+<p>发生在堆被占满不能进行内存分配时，在分配新对象之前必须进行内存回收</p>
+</li>
+<li><p>GC_CONCURRENT</p>
+<p>发生在（可能是部分的）垃圾可够回收时，通常有很多对象可以回收</p>
+</li>
+<li><p>GC_EXTERNAL_ALLOC</p>
+<p>在Android3.0 (Honeycomb)以前，释放通过外部内存（externel memory, 通过JNI代码中malloc分配得到的内存）时产  生。Android3.0和更高版本中不再有这种类型的内存分配了。</p>
+</li>
+<li><p>GC_EXPLICIT</p>
+<p>显示调用System.gc产生的垃圾收集</p>
+</li>
+<li><p>GC_HPROF_DUMP_HEAP</p>
+<p>发生在创建HPROF文件时</p>
+</li>
+</ul>
+<h3 id="实例分析"><a href="#实例分析" class="headerlink" title="实例分析"></a>实例分析</h3><p>  08-07 17:45:40.373: D/dalvikvm(5783): GC_CONCURRENT freed 2349K, 65% free 3246K/9551K, external 4703K/5261K, paused 2ms+2ms, total 5ms</p>
+<ul>
+<li><p>freed 2349K</p>
+<p>  说明释放了多少内存.</p>
+</li>
+<li><p>65% free 3246K/9551K</p>
+<p>  65%表示目前可分配内存占比例，3426K表示当前活动对象所占内存，9551K表示堆大小</p>
+</li>
+<li><p>external 4703K/5261K</p>
+<p>  indicates external memory allocation, how much external memory the app has allocated and the    soft limit of allocation.说明外部内存的分配，已经分配了多少以及能够分配的上限。</p>
+</li>
+<li><p>paused 2ms+2ms</p>
+<p>  第一个时间值表示markrootset的时间，第二个时间值表示第二次mark的时间。如果触发原因不是GC_CONCURRENT，这一    行为单个时间值，表示垃圾收集的耗时时间。</p>
+</li>
+<li><p>total 5ms</p>
+<p>  GC总耗时</p>
+</li>
+</ul>
+<h3 id="命令行查看数据"><a href="#命令行查看数据" class="headerlink" title="命令行查看数据"></a>命令行查看数据</h3><ul>
+<li>adb shell</li>
+<li>ps | grep xxx.xxx 获取pid</li>
+<li>dumpsys meminfo <pid></pid></li>
+</ul>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
+<li><a href="http://blog.csdn.net/gemmem/article/details/13017999" target="_blank" rel="external">Android内存泄漏分析及调试</a></li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag"># Android</a>
+          
+            <a href="/tags/Memery/" rel="tag"># Memery</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/10/29/2015-10-29-lunar-calendar/" rel="next" title="中国农历转公历">
+                <i class="fa fa-chevron-left"></i> 中国农历转公历
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/06/2016-05-06-android-sign/" rel="prev" title="安卓签名笔记">
+                安卓签名笔记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -376,6 +479,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="uyan_frame"></div>
+    
+  </div>
+
 
         </div>
         
@@ -395,8 +504,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -449,6 +567,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#说明"><span class="nav-number">1.</span> <span class="nav-text">说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例分析"><span class="nav-number">2.</span> <span class="nav-text">实例分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命令行查看数据"><span class="nav-number">3.</span> <span class="nav-text">命令行查看数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考资料"><span class="nav-number">4.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -563,11 +697,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
 
 
   
@@ -600,6 +732,10 @@
   
     
 
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2129629"></script>
+      <!-- UY END -->
     
   
 
